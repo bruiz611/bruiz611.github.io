@@ -1,10 +1,10 @@
-.grid-container {
+.link-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
 
-.grid-container a {
+.link-container a {
   display: block;
   padding: 15px;
   text-align: center;
@@ -12,6 +12,6 @@
   height: 100%;
 }
 
-.grid-container a:hover {
+.link-container a:hover {
   background-color: blue;
 }
