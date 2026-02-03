@@ -1,2 +1,17 @@
-body {
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.grid-container a {
+  display: block;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid black;
+  height: 100%;
+}
+
+.grid-container a:hover {
+  background-color: blue;
 }
