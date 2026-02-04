@@ -21,21 +21,28 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 }
-/* Default light mode */
+/* Default (light) */
 body {
   background: #ffffff;
   color: #111;
-  font-family, system-ui, sans-serif;
+  font-family: system-ui, sans-serif;
 }
-/* Dark mode */
+
 a {
   color: #0645ad;
 }
 
-body.dark a {
-  color:#8ab4f8;
+/* Dark mode */
+body.dark {
+  background: #111;
+  color: #eee;
 }
 
+body.dark a {
+  color: #8ab4f8;
+}
+
+/* Button styling (keep it boring) */
 #darkToggle {
   background: none;
   border: 1px solid #ccc;
