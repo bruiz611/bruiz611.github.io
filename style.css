@@ -22,6 +22,10 @@ h2 {
   letter-spacing: 0.05rem;
 }
 
+* {
+  font-family: "Times New Roman", serif;
+}
+
 /* WIP
 
 Default (light mode)
