@@ -21,7 +21,10 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 }
-/* Default (light) */
+
+/* WIP
+
+Default (light mode)
 body {
   background: #ffffff;
   color: #111;
@@ -32,7 +35,7 @@ a {
   color: #0645ad;
 }
 
-/* Dark mode */
+Dark mode 
 body.dark {
   background: #111;
   color: #eee;
@@ -42,7 +45,7 @@ body.dark a {
   color: #8ab4f8;
 }
 
-/* Button styling (keep it boring) */
+Button styling
 #darkToggle {
   background: none;
   border: 1px solid #ccc;
@@ -56,3 +59,4 @@ body.dark #darkToggle {
   color: #eee;
 }
 
+*/
