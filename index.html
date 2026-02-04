@@ -7,7 +7,8 @@
     <title>DRQM Cheat Sheet</title>
   </head>
   <body>
-    <h1>DRQM Cheat Sheet</h1>
+    <h1 class="title">DRQM Cheat Sheet</h1>
+    <button id="darkToggle">🌙 Dark mode</button>
     <ul class="link-list">
       <li><a href="https://usaf.dps.mil/sites/10568/AFCENT_GPMS/DRQ/../../AFCENT_GPMS" target="_blank" rel="noopener noreferrer">AFCENT GPMS (Parent Folder)</a></li>
       <li><a href="https://usaf.dps.mil/:b:/r/sites/10568/AFCENT_GPMS/Shared%20Documents/1.%20PWS/Current%20PWS%20%26%20MODS/MOD%20P00006/9AF(AFCENT)%20GPMS%20Performance%20Work%20Statement%20(P00006)/9AF(AFCENT)%20GPMS%20Performance%20Work%20Statement%20(P00006).pdf?csf=1&web=1&e=wNEK2B" target="_blank" rel="noopener noreferrer">9AF (AFCENT) GPMS PWS</a></li>
@@ -40,5 +41,22 @@
       <li><a href="https://usaf.dps.mil/sites/10568/AFCENT_GPMS/DRQ/../../../../:w:/r/sites/10568/AFCENT_GPMS/DRQ/QASP/Attachment%206-Random%20Representative%20Sampling%20Tables-As%20of%2027%20Mar%202023.docx?d=w71afcc0cd8da4ba5b421a89dfea80341&csf=1&web=1&e=KqRMXY" target="_blank" rel="noopener noreferrer">Attachment 6-Random Representative Sampling</a></li>
       <li><a href="https://usaf.dps.mil/sites/10568/AFCENT_GPMS/DRQ/../../../../:w:/r/sites/10568/AFCENT_GPMS/DRQ/QASP/Attachment%207-QM%20GPMS%20CPAR%20Questionaire-As%20of%2027%20Mar%202023.docx?d=w9ddd3443ad554cf6b07524e3825396ab&csf=1&web=1&e=6DafQQ" target="_blank" rel="noopener noreferrer">Attachment 7-QM GPMS CPAR Questionnaire</a></li>
     </ul>
+    <script>
+      const button = document.getElementById("darkToggle");
+      const body = document.body;
+
+      if (localStorage.getItem("darkMode") === "on") {
+        body.classList.add("dark");
+      }
+
+      button.addEventListener("click", () => {
+        body.classList.toggle("dark");
+
+        localStorage.setItem(
+          "darkMode",
+          body.classList.contains("dark") ? "☀️ Light mode" : "🌙 Dark mode"
+        );
+      });
+    </script>
   </body>
 </html>
