@@ -1,17 +1,23 @@
-.link-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
+.link-list {
+  column-count: 3;
+  column-gap: 2rem;
+  list-style: none;
+  padding:0;
 }
 
-.link-container a {
-  display: block;
-  padding: 5px;
-  text-align: center;
-  border: 1px solid black;
-  height: 100%;
+.link-list li {
+  break-inside: avoid;
+  margin-bottom: 0.5rem;
 }
 
-.link-container a:hover {
-  background-color: blue;
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
 }
