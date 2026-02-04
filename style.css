@@ -21,3 +21,31 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 }
+/* Default light mode */
+body {
+  background: #ffffff;
+  color: #111;
+  font-family, system-ui, sans-serif;
+}
+/* Dark mode */
+a {
+  color: #0645ad;
+}
+
+body.dark a {
+  color:#8ab4f8;
+}
+
+#darkToggle {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 0.4rem 0.7rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+body.dark #darkToggle {
+  border-color: #555;
+  color: #eee;
+}
+
