@@ -25,10 +25,17 @@ h2 {
   font-family: "Times New Roman", serif;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
+
+img {
+  height: 40px;
+  width: auto;
+}
+
 
 /* WIP
 
