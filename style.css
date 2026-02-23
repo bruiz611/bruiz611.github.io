@@ -25,6 +25,11 @@ h2 {
   font-family: "Times New Roman", serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* WIP
 
 Default (light mode)
