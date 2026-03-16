@@ -1,12 +1,14 @@
 .link-list {
-  column-count: 1;
+  column-count: 2;
   column-gap: 2rem;
   list-style: none;
   padding:0;
 }
 
 .link-list li {
-  break-inside: avoid;
+  break-inside: avoid-column;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
   margin-bottom: 0.5rem;
 }
 
