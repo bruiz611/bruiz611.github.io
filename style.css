@@ -12,7 +12,6 @@
 
 h1 {
   margin-bottom: 0.5rem;
-  break-before: column;
 }
 
 h2 {
@@ -20,6 +19,7 @@ h2 {
   font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
+  break-before: column;
 }
 
 * {
