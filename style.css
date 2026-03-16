@@ -12,6 +12,7 @@
 
 h1 {
   margin-bottom: 0.5rem;
+  break-before: column;
 }
 
 h2 {
