@@ -1,30 +1,31 @@
-.link-list {
-  column-count: 3;
-  column-gap: 0.25rem;
-  list-style: none;
-  padding:0;
-}
-
-.link-list li {
-  break-inside: avoid-column;
-  margin-bottom: 0.25rem;
+* {
+  font-family: 'Times New Roman', Times, serif
 }
 
 h1 {
-  margin-bottom: 0.5rem;
+  margin: 0 0 0.5rem 0;
 }
 
 h2 {
-  margin-top: 2rem;
-  margin-bottom: 0.25rem;
-  font-size: 1.1rem;
   text-transform: uppercase;
-  letter-spacing: 0.05rem;
-  break-before: column;
+  letter-spacing: .05rem;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
 }
 
-* {
-  font-family: "Times New Roman", serif;
+.column-container {
+  column-count: 3;
+  column-gap: 0.25rem;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+  margin: 0rem;
+}
+
+.link-list li {
+  margin: .05rem;
 }
 
 .site-header {
