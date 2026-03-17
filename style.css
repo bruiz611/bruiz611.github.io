@@ -1,6 +1,6 @@
 .link-list {
   column-count: 3;
-  column-gap: 1rem;
+  column-gap: 0.25rem;
   list-style: none;
   padding:0;
 }
