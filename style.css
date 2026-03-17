@@ -18,6 +18,10 @@ h2 {
   column-gap: 0.25rem;
 }
 
+.section {
+  break-inside: avoid;
+}
+
 .link-list {
   list-style: none;
   padding: 0;
