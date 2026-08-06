@@ -13,7 +13,7 @@ link.addEventListener("click", function(e) {
 const startDate = new Date("2025-11-17T07:30:00");
 
 function updateCounter() {
-  const now = new Date;
+  const now = new Date();
   const difference = now - startDate;
   const days = Math.floor(difference / (1000 * 60 * 60 * 24));
   const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -22,4 +22,4 @@ function updateCounter() {
 }
 
 updateCounter();
-setInterval(UpdateCounter, 1000);
+setInterval(updateCounter, 1000);
