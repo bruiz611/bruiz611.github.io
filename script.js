@@ -10,7 +10,7 @@ link.addEventListener("click", function(e) {
   }, 1500);
 });
 
-const startDate = new Date("2025-11-17T08:30:00");
+const startDate = new Date("2025-11-17T06:30:00");
 
 function updateCounter() {
   const now = new Date();
