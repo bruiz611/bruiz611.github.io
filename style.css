@@ -53,6 +53,12 @@ img {
   margin-right: 20px;
 }
 
+.navbar {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px
+}
+
 /* WIP
 
 Default (light mode)
